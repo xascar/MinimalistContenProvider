@@ -25,6 +25,10 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <provider
+            android:name=".MiniContentProvider"
+            android:authorities="com.android.example.minimalistcontentprovider.provider" />
     </application>
+
 
 </manifest>

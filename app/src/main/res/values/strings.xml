@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MinimalistContentProvider</string>
+    <string name="response">response</string>
+    <string name="list_all_words">List all words</string>
+    <string name="list_first_word">List first word</string>
+    <string-array name="words">
+        <item>Android</item>
+        <item>Activity</item>
+        <item>ContentProvider</item>
+        <item>ContentResolver</item>
+    </string-array>
 </resources>

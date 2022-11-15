@@ -2,9 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <permission
-        android:name="MiniContentProvider._READ_PERMISSION"
-        android:protectionLevel="normal" />
+<!--    <permission-->
+<!--        android:name="MiniContentProvider._READ_PERMISSION"-->
+<!--        android:protectionLevel="normal" -->
+<!--        />-->
 
     <application
         android:allowBackup="true"
@@ -32,10 +33,10 @@
         <provider
             android:name=".MiniContentProvider"
             android:authorities="com.android.example.minimalistcontentprovider.provider"
-            android:enabled="true"
             android:exported="true"
-            android:readPermission="MiniContentProvider._READ_PERMISSION"
             />
+<!--        android:enabled="true"-->
+<!--            android:readPermission="MiniContentProvider._READ_PERMISSION"-->
     </application>
 
 
